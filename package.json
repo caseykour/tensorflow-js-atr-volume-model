@@ -1,0 +1,15 @@
+{
+  "name": "tensorflow-volume-volatility-model",
+  "version": "1.0.0",
+  "description": "A simple model that identifies the relationship between a given financial instrument's volume and volatility (ATR).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/model.js"
+  },
+  "author": "Casey Kour",
+  "license": "ISC",
+  "devDependencies": {
+    "@tensorflow/tfjs": "^1.0.4",
+    "quant-sdk": "^1.0.0"
+  }
+}
